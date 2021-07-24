@@ -1,0 +1,102 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5em;
+}
+h1, h2, h3, h4, h5, h6{
+  text-transform: capitalize;
+}
+h2{
+  text-decoration: underline;
+}
+p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#title{
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  outline: 5px solid black;
+  outline-offset: 10px;
+  border-radius: 20px;
+}
+.centered{
+  text-align: center;
+  border-radius: 5px;
+  border-color: black;
+  border-style: solid;
+  background-color: white;
+}
+a{
+  text-decoration: none;
+  font-size: 20px;
+}
+ul{
+  list-style-type: square;
+  text-align: left;
+}
+#cruz{
+  background-image: url("../Images/gay_flag.png");
+  width: 400px;
+  background-size: cover;
+  border: 3px pink solid;
+  margin: 15px;
+  float: right;
+  color: white;
+}
+#sebas{
+  background-image: url("../Images/dog_sebas.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 160px;
+  width: 400px;
+  border: 3px brown solid;
+  margin: 15px;
+  float: right;
+  clear: right;
+}
+#martim{
+  background-image: url(../Images/lol.jpeg);
+  background-size: cover;
+  width: 400px;
+  border: 3px black solid;
+  margin: 15px;
+  float: right;
+  clear: right;
+  color: white;
+}
+.memetwerking{
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-left: 3px black solid;
+  border-bottom: 3px black solid;
+}
+.siteinfo{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+.copyright{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 5px;
+}
+table{
+  text-align: center;
+}
+@media screen and (max-width: 900px){
+  #cruz{
+    float: none;
+  } 
+  #sebas{
+    float: none;
+  } 
+  #martim{
+    float: none;
+  }
+}
